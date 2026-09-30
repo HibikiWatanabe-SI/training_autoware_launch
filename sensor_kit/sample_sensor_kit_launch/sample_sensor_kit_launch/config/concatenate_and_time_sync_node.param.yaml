@@ -10,6 +10,9 @@
     publish_previous_but_late_pointcloud: false
     synchronized_pointcloud_postfix: pointcloud
     input_twist_topic_type: twist
+    input_topics[
+                  "/sensing/lidar/top/pointcloud_before_sinc"
+              ]
     output_frame: base_link
     matching_strategy:
       type: advanced
